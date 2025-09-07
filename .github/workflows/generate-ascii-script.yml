@@ -1,4 +1,4 @@
-name: Generate ASCII Artwork
+name: Generate ASCII Shell Script
 
 on: push
 
@@ -11,7 +11,7 @@ jobs:
 
         - name: List Repo files
           run: ls -ltra
-            
+
         - name: Executing Shell Script
           run: ./ascii-script.sh
 
