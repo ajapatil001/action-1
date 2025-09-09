@@ -14,12 +14,11 @@ jobs:
             - name: Run Images
               run: docker run hello-world
 
-    deploy-on-windows:
-        runs-on: winwindows-latest
+    deploy-on-ubuntu-1804:
+        runs-on: ubuntu-18.04
         steps:
           - name: Echo Docker Details
             run: docker info
 
           - name: Run Images
             run: docker run hello-world
-            
