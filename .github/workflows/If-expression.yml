@@ -2,6 +2,7 @@ name: Exploring If-Expression
 
 on:
     push: 
+    workflow_dispatch:     
 
 jobs:
   docker:
