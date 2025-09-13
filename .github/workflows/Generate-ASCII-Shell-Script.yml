@@ -1,6 +1,6 @@
-name: Generate ASCII Shell Script
+name: Generate-ASCII-Shell-Script
 
-on: push
+on: workflow_dispatch
 
 jobs:
     ascii_job:

@@ -1,6 +1,6 @@
 name: Multi-Job-Generate-ASCII-Artwork
 
-on: push
+on: workflow_dispatch
 
 jobs:
     Build_Job_1:
